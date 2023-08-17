@@ -49,8 +49,9 @@ function showToDisplay(userData) {
 			document.querySelector('#email').value = userData.mail; 
 		};
 
-        li.appendChild(deleteButton);
         li.appendChild(updateButton);
+        li.appendChild(deleteButton);
+        
         userlist.appendChild(li);
 
 	}
